@@ -33,4 +33,4 @@ for i in range(5,15):
     cv2.imshow("Mask",resize(mask))
     cv2.imshow("Image",resize(img,.7,.7))
     cv2.waitKey(0)
-cv2.destroyAllWindows
+cv2.destroyAllWindows()
